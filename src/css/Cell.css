@@ -1,0 +1,17 @@
+.cell {
+  aspect-ratio: 1;
+  background-color: antiquewhite;
+  border-radius: 50%;
+  cursor: pointer;
+  position: relative;
+  width: 6rem;
+  transition: 0.5s;
+}
+
+.cell.red {
+  background-color: red;
+}
+
+.cell.yellow {
+  background-color: yellow;
+}
